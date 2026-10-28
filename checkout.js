@@ -19,5 +19,8 @@ function aplicarCupom(subtotal, codigo) {
     return 0;
 }
 console.log("DESC10:", aplicarCupom(250, "DESC10"));
-
 console.log("DESC20:", aplicarCupom(250, "DESC20"));
+
+console.log("FRETEGRATIS:", aplicarCupom(250, "FRETEGRATIS"));
+
+
